@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Mirrored from html.rudhisasmito.com/petro/about-company.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jun 2025 05:42:49 GMT -->
+
+<head>
+	<!-- Basic Page Needs
+    ================================================== -->
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mustang</title>
+	<meta name="keywords"
+		content="mustang, industrial, oil and gas, company, manufacturing, mechanical, power and energy, engineering">
+	<meta name="author" content="mustang.com">
+
+	<!-- ==============================================
+	Favicons
+	=============================================== -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-toulch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- ==============================================
+	CSS VENDOR
+	=============================================== -->
+	<link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/vendor/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/magnific-popup.css">
+
+	<!-- ==============================================
+	Custom Stylesheet
+	=============================================== -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+	<script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+	<style>
+		.custom-nav-font>li>a {
+
+
+			font-size: 16px !important;
+			/* or try 1.2rem */
+			font-weight: 700;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="animationload">
+		<div class="loader"></div>
+	</div>
+
+	<!-- BACK TO TOP SECTION -->
+	<a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
+
+	<div class="header">
+		<!-- TOPBAR -->
+		<div class="topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-5 col-md-6">
+						<div class="topbar-left">
+							<div class="welcome-text mb-2">
+								<h4>
+									sales@mustangtecno.com
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-5 col-md-6">
+
+					</div>
+					<div class="col-sm-7 col-md-6">
+						<div class="topbar-right">
+							<ul class="topbar-sosmed">
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<button id="enquiryToggleBtn">Enquiry</button>
+
+					<!-- enquiry form drawer -->
+					<div id="enquiryBox">
+						<div class="enquiry-header">
+							<h2>Quick Enquiry</h2>
+							<button class="close-btn" id="closeEnquiry" aria-label="Close enquiry form">&times;</button>
+						</div>
+
+						<form action="process_contact.php" method="POST" class="enquiry-body"
+							onsubmit="return validate();">
+							<label>Name
+								<input type="text" name="name" required />
+							</label>
+							<label>Email
+								<input type="email" name="email" required />
+							</label>
+							<label>Subject
+								<input type="text" name="subject" />
+							</label>
+							<label>Message
+								<textarea name="message" required></textarea>
+							</label>
+							<button type="submit">Send Enquiry</button>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script>
+			/* open & close behaviour */
+			const toggleBtn = document.getElementById('enquiryToggleBtn');
+			const enquiryBox = document.getElementById('enquiryBox');
+			const closeBtn = document.getElementById('closeEnquiry');
+
+			toggleBtn.addEventListener('click', () => {
+				enquiryBox.style.display = 'flex'; // show
+				toggleBtn.style.display = 'none'; // hide trigger (optional)
+			});
+
+			closeBtn.addEventListener('click', () => {
+				enquiryBox.style.display = 'none'; // hide form
+				toggleBtn.style.display = 'inline-block'; // show trigger
+			});
+
+			/* simple client‑side validation if you want a quick guard */
+			function validate() {
+				// extra checks here if needed
+				return true;
+			}
+		</script>
+
+		<!-- TOPBAR LOGO SECTION -->
+		<div class="topbar-logo">
+			<div class="container">
+
+
+				<div class="contact-info">
+					<!-- INFO 1 -->
+					<div class="box-icon-1">
+						<div class="icon">
+							<div class="fa fa-envelope-o"></div>
+						</div>
+						<div class="body-content">
+							<div class="heading">Email Support</div>
+							sales@mustangtecno.com
+						</div>
+					</div>
+					<!-- INFO 2 -->
+					<div class="box-icon-1">
+						<div class="icon">
+							<div class="fa fa-phone"></div>
+						</div>
+						<div class="body-content">
+							<div class="heading">Call Support</div>
+							+919821889419
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- NAVBAR SECTION -->
+		<div class="navbar navbar-main">
+
+			<div class="container container-nav">
+				<div class="rowe">
+
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+					</div>
+
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" alt="Logo" style="height: 80px; width: auto; margin-top: -20px;">
+					</a>
+
+					<nav class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-left custom-nav-font">
+							<li class="dropdown"><a href="index.html">HOME</a></li>
+							<li class="dropdown"><a href="about-company.html">ABOUT US</a></li>
+							<li class="dropdown"><a href="services.php">SERVICES</a></li>
+							<li class="dropdown custom-font"><a href="Gallary.php">GALLARY</a></li>
+							<li class="dropdown"><a href="contact-2.php">CONTACT</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- BANNER -->
+	<div class="section banner-page about">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<div class="title-page">Contact Us</div>
+					<ol class="breadcrumb">
+						<li><a href="index-2.html">Contact</a></li>
+						<li class="active">Contact Us</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+	<div class="section contact overlap">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-md-4 col-md-push-8">
+					<div class="widget download">
+						<a href="#" class="btn btn-secondary btn-block btn-sidebar"><span
+								class="fa fa-file-pdf-o"></span> Company Brochure</a>
+					</div>
+					<div class="widget contact-info-sidebar">
+						<div class="widget-title">Contact Info</div>
+						<ul class="list-info">
+							<li>
+								<div class="info-icon">
+									<span class="fa fa-map-marker"></span>
+								</div>
+								<div class="info-text">
+									Mustang Technologies Pvt Ltd D402, Pristine Pronext, Near
+									Euro School, Wakad Pune, India-411057
+								</div>
+							</li>
+							<li>
+								<div class="info-icon">
+									<span class="fa fa-phone"></span>
+								</div>
+								<div class="info-text">+91 9821889419</div>
+
+								<div class="info-text">+91 9860086714</div>
+
+								<div class="info-text">+91 7219115755</div>
+							</li>
+							<li>
+								<div class="info-icon">
+									<span class="fa fa-envelope"></span>
+								</div>
+								<div class="info-text">sales@mustangtecno.com</div>
+							</li>
+							<li>
+								<div class="info-icon">
+									<span class="fa fa-clock-o"></span>
+								</div>
+								<div class="info-text">Mon - Sat 09:00 - 17:00</div>
+							</li>
+							<li>
+								<div class="info-icon">
+									<i class="bi bi-globe"></i>
+								</div>
+								<div class="info-text">
+									<a href="https://www.mustangtecno.com/">
+										www.mustangtecno.com</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-8 col-md-8 col-md-pull-4">
+					<div class="content">
+						<p class=" " style="font-size:20px">
+							Looking to partner, collaborate, or ask a question? Reach out—we
+							respond promptly and professionally.
+						</p>
+						<div class="margin-bottom-30"></div>
+						<h3 class="section-heading-2">Contact Details</h3>
+						<form method="post" action="Submit_Contact.php" class="form-contact">
+							<div class="form-group">
+								<input type="text" class="form-control" id="p_name" name="p_name" placeholder="Full Name..."
+									required="" />
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="p_email" name="p_email" placeholder="Enter Email Address..."
+									required="" />
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="form-group">
+								<input type="number" class="form-control" id="p_phone" name="p_phone" placeholder="Enter Phone..."
+									required="" />
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="p_subject" name="p_subject" placeholder="Subject..." />
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="form-group">
+								<textarea id="p_message" name="p_message" class="form-control" rows="6"
+									placeholder="Write message"></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="form-group">
+								<div id="success"></div>
+								<button type="submit" name="Submit" class="btn btn-secondary disabled"
+									style="pointer-events: all; cursor: pointer">
+									ASK A QUOTE
+								</button>
+							</div>
+						</form>
+						<div class="margin-bottom-50"></div>
+						<p>
+							<em>Note: Consectetur adipisicing elit sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.</em>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- MAPS -->
+	<div class="maps-wraper">
+		<div id="cd-zoom-in"></div>
+		<div id="cd-zoom-out"></div>
+		<div id="maps" class="maps" data-lat="-7.452278" data-lng="112.708992"
+			data-marker="images/cd-icon-location.png"></div>
+	</div>
+
+	<!-- INFO BOX -->
+	<div class="section info overlap-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-md-4">
+					<!-- BOX 1 -->
+					<div class="box-icon-4">
+						<div class="icon"><i class="fa fa-phone"></i></div>
+						<div class="body-content">
+							<div class="heading">CALL US NOW</div>
+							Office Telephone: +91 9821889419 <br />
+							Mobile:+91 9860086714
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-4">
+					<!-- BOX 2 -->
+					<div class="box-icon-4">
+						<div class="icon"><i class="fa fa-map-marker"></i></div>
+						<div class="body-content">
+							<div class="heading">COME VISIT US</div>
+							Mustang Technologies Pvt Ltd D402, Pristine Pronext, Near Euro
+							School, Wakad Pune, India-411057
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-4">
+					<!-- BOX 3 -->
+					<div class="box-icon-4">
+						<div class="icon"><i class="fa fa-envelope"></i></div>
+						<div class="body-content">
+							<div class="heading">SEND US A MESSAGE</div>
+							General: www.mustangtecno.com<br />
+							Sales: sales@mustangtecno.com
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER SECTION -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 col-md-3">
+					<div class="footer-item">
+						<p
+							style="font-family: 'Orbitron', sans-serif;   font-size: 30px; text-decoration: underline;">
+							MUSTANG TECHNOLOGIES
+						</p>
+						<p>
+							For solutions based on our Technologies, Mustang Tech aspires to
+							deliver complete skid
+							<b> including Engineering,</b>
+							Procurement and Fabrication.
+						</p>
+						<div class="footer-sosmed">
+							<a href="#" title="">
+								<div class="item">
+									<i class="fa fa-facebook"></i>
+								</div>
+							</a>
+							<a href="#" title="">
+								<div class="item">
+									<i class="fa fa-twitter"></i>
+								</div>
+							</a>
+							<a href="#" title="">
+								<div class="item">
+									<i class="fa fa-instagram"></i>
+								</div>
+							</a>
+							<a href="#" title="">
+								<div class="item">
+									<i class="fa fa-pinterest"></i>
+								</div>
+							</a>
+							<a href="https://wa.me/919821889419?text=${msg}" target="_blank">
+								<div class="item">
+									<i class="bi bi-whatsapp"></i>
+								</div>
+							</a>
+							<script>
+								const msg = encodeURIComponent(
+									"Hi, I'm interested in your services"
+								);
+							</script>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3">
+					<div class="footer-item">
+						<div class="footer-title">Recent Post</div>
+						<ul class="recent-post">
+							<li>
+								<a href="#" title="">The Best in dolor sit amet consectetur adipisicing elit
+									sed</a>
+								<span class="date"><i class="fa fa-clock-o"></i> June 16, 2017</span>
+							</li>
+							<li>
+								<a href="#" title="">The Best in dolor sit amet consectetur adipisicing elit
+									sed</a>
+								<span class="date"><i class="fa fa-clock-o"></i> June 16, 2017</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3">
+					<div class="footer-item">
+						<div class="footer-title">Our Services</div>
+						<ul class="list">
+							<li><a href="#" title="">Conceptual/Feasibility Studies</a></li>
+							<li><a href="#" title="">Pre-Bid engineering</a></li>
+							<li><a href="#" title="">Pre FEED and FEEED Engineering</a></li>
+							<li><a href="#" title="">Basic Engineering</a></li>
+							<li><a href="#" title="">Procurement Support</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3">
+					<div class="footer-item">
+						<div class="footer-title">Subscribe</div>
+						<p>
+							Lit sed The Best in dolor sit amet consectetur adipisicing elit
+							sedconsectetur adipisicing
+						</p>
+						<form action="#" class="footer-subscribe">
+							<input type="email" name="EMAIL" class="form-control" placeholder="enter your email" />
+							<input id="p_submit" type="submit" value="send" />
+							<label for="p_submit"><i class="fa fa-envelope"></i></label>
+							<p>Get latest updates and offers.</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="fcopy">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<p class="ftex ">
+							&copy; 2025
+
+							<b> Career Tech It solutions </b>
+							- All Rights Reserved
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- JS VENDOR -->
+	<script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+	<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.superslides.js"></script>
+	<script type="text/javascript" src="js/vendor/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/vendor/bootstrap-hover-dropdown.min.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/vendor/easings.js"></script>
+	<script type="text/javascript" src="js/vendor/isotope.pkgd.min.js"></script>
+
+	<!-- sendmail -->
+	<script type="text/javascript" src="js/vendor/validator.min.js"></script>
+	<script type="text/javascript" src="js/vendor/form-scripts.js"></script>
+
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&amp;ver=4.1.5"></script>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+<!-- Mirrored from html.rudhisasmito.com/petro/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jun 2025 05:41:57 GMT -->
+
+</html>
